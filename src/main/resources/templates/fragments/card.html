@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:fragment="card(title, imageSrc, link, altText)">
+  <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+    <div class="card-body text-center">
+      <img th:src="@{${imageSrc}}" th:alt="${altText}" class="mb-3" style="width: 65%; height: 140px;" />
+      <p class="text-center">
+        <a th:href="@{${link}}" class="text-decoration-none" th:text="${title}">Card Title</a>
+      </p>
+    </div>
+  </div>
+</html>
