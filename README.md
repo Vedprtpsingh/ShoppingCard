@@ -76,3 +76,17 @@ ShoppingCard is a Spring Boot based e-commerce web application designed to provi
 ---
 
 This README provides an overview of the ShoppingCard project, its features, structure, and how to run it locally.
+
+## Screenshots
+
+Below are some screenshots showcasing key pages and features of the ShoppingCard application:
+
+| Screenshot          | Description          |
+|---------------------|----------------------|
+| ![Login Page](ss/loginPage.png)       | User login page       |
+| ![Register Page](ss/registerpage.png) | User registration page|
+| ![Login Profile](ss/LoginProfile.png) | User profile after login |
+| ![Product List](ss/productList.png)   | Product listing page  |
+| ![My Order](ss/myOrder.png)           | User order page       |
+| ![After Logout](ss/afterLogout.png)   | Page after user logout|
+

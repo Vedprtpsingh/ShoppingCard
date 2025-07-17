@@ -6,8 +6,6 @@ import org.springframework.data.domain.Page;
 
 import com.ved.shoppingcard.model.Category;
 
-
-
 public interface CategoryService {
 
 	public Category saveCategory(Category category);
